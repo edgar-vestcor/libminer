@@ -19,3 +19,6 @@ use_package("fs") # fs stands for filesystem
  if(!is.logical(sizes)){
     stop("sizes must be a logical value (TRUE/FALSE)")
   }
+
+# Continious integration
+Check packages if they are fine - do a pre check

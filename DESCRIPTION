@@ -9,7 +9,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-URL: https://github.com/edgar-vestcor/libminer
+URL: https://github.com/edgar-vestcor/libminer, https://edgar-vestcor.github.io/libminer/
 BugReports: https://github.com/edgar-vestcor/libminer/issues
 Suggests: 
     testthat (>= 3.0.0)
