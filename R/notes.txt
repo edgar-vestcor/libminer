@@ -12,3 +12,10 @@ Write a small, tight function for better testing (always wite a testable code/fu
 
 expect_type(Sys.Date(), "double")
 expect_s3_class("foo")
+
+use_package("fs") # fs stands for filesystem
+
+# Fail ealr so users dont waste a lot of theier time ()
+ if(!is.logical(sizes)){
+    stop("sizes must be a logical value (TRUE/FALSE)")
+  }
