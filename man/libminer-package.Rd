@@ -12,6 +12,7 @@ This package contains fun functions.
 Useful links:
 \itemize{
   \item \url{https://github.com/edgar-vestcor/libminer}
+  \item \url{https://edgar-vestcor.github.io/libminer/}
   \item Report bugs at \url{https://github.com/edgar-vestcor/libminer/issues}
 }
 
