@@ -5,3 +5,5 @@ CTRL+. to get any func
 
 roxygen is used to write documentation - uses markdown syntax
 Code -> Insert Roxygen skeleton
+
+Write a small, tight function for better testing (always wite a testable code/function)
