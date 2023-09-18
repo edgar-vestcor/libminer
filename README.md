@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/edgar-vestcor/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/edgar-vestcor/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup.
