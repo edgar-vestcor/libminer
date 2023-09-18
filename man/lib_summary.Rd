@@ -4,7 +4,11 @@
 \alias{lib_summary}
 \title{R library summary}
 \usage{
-lib_summary()
+lib_summary(sizes = FALSE)
+}
+\arguments{
+\item{sizes}{A logical value indicating weather to calculate sizes
+default \code{FALSE}}
 }
 \value{
 A \code{data.frame} containing the count of packages in each
@@ -16,4 +20,5 @@ your machine
 }
 \examples{
 lib_summary()
+lib_summary(sizes = TRUE)
 }
