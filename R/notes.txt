@@ -2,3 +2,6 @@ LICENSE file is for CRAN
 LISENSE.md is for GIT
 
 CTRL+. to get any func
+
+roxygen is used to write documentation - uses markdown syntax
+Code -> Insert Roxygen skeleton

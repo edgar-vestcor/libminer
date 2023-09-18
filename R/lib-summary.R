@@ -1,7 +1,17 @@
+#' R library summary
+#'
+#' Provides a brief summary of package libraries on
+#'  your machine
+#' @return A `data.frame` containing the count of packages in each
+#'  of the user's libraries
+#' @export
+#'
+#' @examples
+#' lib_summary()
 lib_summary <- function(){
-  pkgs <- utils::install.packages()
+  pkgs <- utils::installed.packages()
   pkg_tbl <- table(pkgs[,"LibPath"])
   pkg_df <- as.data.frame(pkg_tbl, stringAsFactors = FALSE)
-  names(pkg_dk) <- c("Library", "n_packages")
+  names(pkg_df) <- c("Library", "n_packages")
   pkg_df
 }
